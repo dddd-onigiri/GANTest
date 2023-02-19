@@ -6,7 +6,7 @@ import numpy as np
 import tensorflow as tf
 from tensorflow.keras.models import load_model
 
-st.title('Image Generation App')
+st.title('画像生成')
 
 # テキストを入力
 text_input = st.text_input('Enter text', 'happy')
